@@ -1,13 +1,6 @@
 {
   "islands": [
     {
-      "username": "SPAWN",
-      "location": {
-        "x": 0,
-        "z": 0
-      }
-    },
-    {
       "username": "emeraldbraide",
       "location": {
         "x": 300,
