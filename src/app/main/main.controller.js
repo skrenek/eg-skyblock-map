@@ -74,7 +74,7 @@
 
     $http({
       method: 'GET',
-      url: '/assets/map.json',
+      url: 'assets/map.json',
       headers: {
         'Accept': 'application/json'
       }
