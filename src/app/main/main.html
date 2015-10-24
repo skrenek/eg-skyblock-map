@@ -1,0 +1,29 @@
+<div layout="column" layout-fill>
+
+  <md-content>
+    <header>
+      <navbar creation-date="ctrl.creationDate"></navbar>
+    </header>
+
+    <section class="md-padding">
+      <p><strong>{{ctrl.islands.length}} islands have been submitted.</strong>  This map represents where players' islands are in relation to one another.</p>
+      <div class="island-grid">
+        <div class="row" ng-repeat="row in ctrl.gridData">
+
+          <div class="island-tile"  ng-repeat="isle in row" data-coords="{{isle.location.x}}, {{isle.location.z}}">
+            <img ng-src="{{isle.avatar}}" class="{{isle.username}}" />
+            <p>{{isle.username}}</p>
+            <p>{{isle.location.x}}, {{isle.location.z}}</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="md-padding md-caption">
+      <a href="http://www.minecraft.net">Minecraft</a> is copyright <a href="http://www.mojang.com">Mojang</a> and is not affiliated with this site.  <a href="http://www.endgameserver.com">End Game</a>, it's site, and its server copyright &copy; End Game and is not affiliated with this site.
+    </footer>
+
+  </md-content>
+
+</div>

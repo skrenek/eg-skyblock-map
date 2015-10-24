@@ -1,0 +1,106 @@
+/**
+ *  Do not remove the comment below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+md-content {
+  background-color: white;
+  background-image: url(../assets/images/old-paper.jpg);
+  background-repeat: no-repeat;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+html {
+  font-family: 'Roboto Slab', serif;
+}
+
+footer {
+  color: black;
+
+  a {
+    color: #1B5E20;
+  }
+}
+
+md-toolbar.md-default-theme {
+  background-color: black;
+}
+
+.island-grid {
+  margin: 0px auto;
+  max-width: 1920px;
+  max-height: 950px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.island-tile {
+  width: 175px;
+  height: 175px;
+  margin: 1px 1px;
+  background-color: rgba(128, 150, 128, 0.25);
+  display: inline-block;
+  text-align: center;
+
+
+  img {
+    width: 125px;
+    height: 125px;
+
+    .steve {
+      width: 55px;
+      height: 55px;
+    }
+  }
+
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+/**
+ *  Do not remove the comment below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector
