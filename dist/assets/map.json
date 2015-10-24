@@ -1,0 +1,46 @@
+{
+  "islands": [
+    {
+      "username": "SPAWN",
+      "location": {
+        "x": 0,
+        "z": 0
+      }
+    },
+    {
+      "username": "emeraldbraide",
+      "location": {
+        "x": 300,
+        "z": -600
+      }
+    },
+    {
+      "username": "Shep987",
+      "location": {
+        "x": -750,
+        "z": 0
+      }
+    },
+    {
+      "username": "sheeb",
+      "location": {
+        "x": -600,
+        "z": 0
+      }
+    },
+    {
+      "username": "DARTHGALEN5",
+      "location": {
+        "x": -450,
+        "z": 0
+      }
+    },
+    {
+      "username": "jake_stumpf",
+      "location": {
+        "x": 600,
+        "z": 0
+      }
+    }
+  ]
+}
