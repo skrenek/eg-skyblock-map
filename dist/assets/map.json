@@ -48,6 +48,27 @@
         "x": -450,
         "z": 150
       }
+    },
+    {
+      "username": "NotoriousNemo",
+      "location": {
+        "x": -450,
+        "z": -450
+      }
+    },
+    {
+      "username": "NotoriousNemo",
+      "location": {
+        "x": -300,
+        "z": -450
+      }
+    },
+    {
+      "username": "zlink_lario",
+      "location": {
+        "x": -750,
+        "z": 1200
+      }
     }
   ]
 }
