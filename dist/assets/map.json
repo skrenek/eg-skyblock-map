@@ -76,6 +76,20 @@
         "x": -450,
         "z": -150
       }
+    },
+    {
+      "username": "Snake51500",
+      "location": {
+        "x": -1200,
+        "z": -300
+      }
+    },
+    {
+      "username": "KeySpam",
+      "location": {
+        "x": 1800,
+        "z": 750
+      }
     }
   ]
 }
