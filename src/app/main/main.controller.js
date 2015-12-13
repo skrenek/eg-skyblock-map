@@ -50,7 +50,8 @@
               isle.avatar = 'https://mcapi.ca/avatar/3d/'+isle.username+'/125';
             }
           } else {
-            isle.avatar = 'http://hydra-media.cursecdn.com/minecraft.gamepedia.com/e/ee/Bedrock.png';
+          //  isle.avatar = 'http://hydra-media.cursecdn.com/minecraft.gamepedia.com/e/ee/Bedrock.png';
+            isle.avatar = 'http://hydra-media.cursecdn.com/minecraft.gamepedia.com/9/9d/Xmas_chest.png';
             isle.username = 'unknown';
           }
           currRow.push(isle);
