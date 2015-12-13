@@ -90,6 +90,20 @@
         "x": 1800,
         "z": 750
       }
+    },
+    {
+      "username": "TheMCLegend14",
+      "location": {
+        "x": 1950,
+        "z": 1050
+      }
+    },
+    {
+      "username": "pitriss",
+      "location": {
+        "x": -450,
+        "z": -1050
+      }
     }
   ]
 }
